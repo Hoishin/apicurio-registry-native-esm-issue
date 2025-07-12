@@ -4,7 +4,7 @@
     "lib": ["es2024"],
 
     "module": "node18",
-    "types": [],
+    "types": ["node"],
 
     "sourceMap": true,
 

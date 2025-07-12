@@ -2,9 +2,11 @@
   "private": true,
   "type": "module",
   "dependencies": {
-    "@apicurio/apicurio-registry-sdk": "^3.0.9"
+    "@apicurio/apicurio-registry-sdk": "^3.0.9",
+    "@internal/fixed-sdk": "file:./fixed-sdk"
   },
   "devDependencies": {
+    "@types/node": "^24.0.13",
     "typescript": "~5.8.3"
   }
 }

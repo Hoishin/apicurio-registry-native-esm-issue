@@ -18,17 +18,5 @@
 1. Run the TypeScript compiler
    ```bash
    npx tsc
-   # Results in import error
-   ```
-1. Run the native ESM script
-   ```bash
-   node build/main.js
-   # Results in runtime error
-   ```
-1. Run with Node.js type stripping
-   ```bash
-   # On latest Node.js v24
-   node src/main.ts
-   # On Node.js latest v22
-   node --experimental-strip-types src/main.ts
+   # Results in import error in `src/main.ts`, no error in `src/fixed.ts`
    ```

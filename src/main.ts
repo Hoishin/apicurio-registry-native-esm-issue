@@ -1,3 +1,5 @@
 import { RegistryClientFactory } from "@apicurio/apicurio-registry-sdk";
 
-RegistryClientFactory.create("http://example.com");
+const client = RegistryClientFactory.createRegistryClient("http://example.com");
+
+console.log(client);
