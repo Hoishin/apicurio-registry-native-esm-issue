@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "type": "module",
+  "dependencies": {
+    "@apicurio/apicurio-registry-sdk": "^3.0.9"
+  },
+  "devDependencies": {
+    "typescript": "~5.8.3"
+  }
+}
